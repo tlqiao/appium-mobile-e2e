@@ -1,0 +1,21 @@
+{
+  "name": "appium-mobile-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/e2e/scenario/*spec.js"
+  },
+  "author": "tlqiao",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mocha": "^5.2.5",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "mocha": "^5.2.0",
+    "webdriverio": "^4.14.0"
+  }
+}
